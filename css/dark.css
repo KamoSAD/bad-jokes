@@ -3,6 +3,10 @@
 }
 
 .darkbg {
-  background-color: #242424;
+  background-color: #232323;
+}
+
+.darkunused {
+  border: inherit;
 }
 /*# sourceMappingURL=dark.css.map */
