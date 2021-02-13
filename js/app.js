@@ -13,7 +13,7 @@ function randomizer(jokeArray) {
 
 // -- BODY -- //
 
-root.addEventListener(`keypress`, () => {
+window.addEventListener(`keypress`, () => {
   randomizer(jokes);
 });
 
