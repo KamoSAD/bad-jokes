@@ -63,6 +63,7 @@ export const jokes = [
   "What did the mayonnaise say to the dresser? Close the door I'm dressing.",
   "What did the judge say when Bill but the cheese? Odor in the court!",
   "What do sweet potatoes wear to bed? Their yammies!",
+  "Everything is made in China. Except for babies. Their made in VaChina.",
   "What do you get when you cross an alien with a crybaby? An unidentified crying object!",
   'What did the hopeless romantic say to the photographer? "Some day, my prints will come."',
   "what do you do with a guy like Fred who thinks hes a gift to women? You exchange him.",
