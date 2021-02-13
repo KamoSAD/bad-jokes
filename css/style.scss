@@ -3,9 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+
+  transition: 200ms ease-in-out;
 }
 body {
   background-color: rgb(233, 233, 233);
+  color: rgb(36, 36, 36);
   overflow: hidden;
 }
 #root {
@@ -30,7 +33,7 @@ div {
   font-size: 3rem;
 }
 
-button.dark {
+button#dark {
   position: absolute;
   top: 5px;
   right: 5px;

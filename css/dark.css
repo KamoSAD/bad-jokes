@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=dark.css.map */
+.darkmode {
+  color: #e9e9e9;
+}
+
+.darkbg {
+  background-color: #242424;
+}
+/*# sourceMappingURL=dark.css.map */
