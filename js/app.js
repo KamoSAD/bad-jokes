@@ -1,6 +1,6 @@
 // -- VARIABLES -- //
 
-const body = document.body;
+const root = document.getElementById("root");
 import { jokes } from "./jokes.js";
 const jokeArea = document.getElementById("joke");
 
@@ -13,10 +13,10 @@ function randomizer(jokeArray) {
 
 // -- BODY -- //
 
-body.addEventListener(`keypress`, () => {
+root.addEventListener(`keypress`, () => {
   randomizer(jokes);
 });
 
-body.addEventListener(`click`, () => {
+root.addEventListener(`click`, () => {
   randomizer(jokes);
 });

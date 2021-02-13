@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Bad Jokes</title>
-    <link
-      rel="shortcut icon"
-      href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico"
-    />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/dark.css" />
   </head>
   <body>
-    <div id="text"><u>Press The Screen Or Any Key</u></div>
+    <div id="root">
+      <div id="text"><u>Press The Screen Or Any Key</u></div>
 
-    <div id="joke"></div>
+      <div id="joke"></div>
+    </div>
+
+    <button class="dark">💡</button>
 
     <script type="module" src="./js/app.js"></script>
     <script type="module" src="./js/jokes.js"></script>
